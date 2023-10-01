@@ -1,0 +1,10 @@
+[
+  "test/test_pokemon.py::test_part_of_body",
+  "test/test_pokemon.py::test_response_json[city-Tokio]",
+  "test/test_pokemon.py::test_response_json[city-Tokyo]",
+  "test/test_pokemon.py::test_response_json[id-1940]",
+  "test/test_pokemon.py::test_response_json[name-Ash]",
+  "test/test_pokemon.py::test_response_json[trainer_id-1940]",
+  "test/test_pokemon.py::test_response_json[trainer_name-Ash]",
+  "test/test_pokemon.py::test_status_code"
+]
