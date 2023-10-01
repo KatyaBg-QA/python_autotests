@@ -1,0 +1,25 @@
+import requests
+import pytest
+token = "a8fbf2385ba5c2205a553a724b470624"
+host = "https://api.pokemonbattle.me:9104"
+def test_status_code():
+    response = requests.get(f'{host}/trainers', params={'trainer_id':1940})
+    assert response.status_code == 200
+    assert response.json()["trainer_name"] == "Ash"
+
+
+'''def test_part_of_body():
+    response = requests.put(f'{host}/trainers', headers={"trainer_token": token},
+                            json={
+    "name": "Ash",
+    "city": "Tokyo"
+})
+    assert response.json()["message"] == "Информация о тренере обновлена"
+
+@pytest.mark.parametrize('key, value', [("trainer_name", "Ash"), 
+                                        ("id", "1940"),
+                                        ("city", "Tokyo")])
+
+def test_response_json(key, value):
+    response = requests.get(f'{host}/trainers', params={'trainer_id':1940})
+    assert response.json()[key]==value'''
