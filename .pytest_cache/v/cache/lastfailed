@@ -1,6 +1,0 @@
-{
-  "test/test_pokemon.py::test_part_of_body": true,
-  "test/test_pokemon.py::test_response_json[name-Ash]": true,
-  "test/test_pokemon.py::test_response_json[trainer_id-1940]": true,
-  "test/test_pokemon.py::test_response_json[city-Tokio]": true
-}
